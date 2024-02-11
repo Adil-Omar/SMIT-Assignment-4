@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+#tr{
+    display: inline;
+    font-size: x-large;
+    padding-top: 35px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+#firstPage{
+    background-color: rgb(245, 245, 243);
+    margin: 20px;
+    padding-bottom: 10px;
+}
+#navbar{
+    display: flex;
+}
+#logo{
+    padding:20px 10px 10px 20px;
+}
+.navButton{
+    text-decoration: none;
+    padding:43px 0 0 60px;
+    color: rgb(105, 105, 105);
+    font-size: larger;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+#button1{
+    padding-left: 330px;
+}
+#srchIcon{
+    height: 33px;
+    padding: 35px 0px 8px 55px;
+}
+#btn{
+    border: none;
+    height: 35px;
+    padding: 0px 20px;
+    text-align: center;
+    margin: 35px 0px 0px 35px;
+    background-color: orangered;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: 500;
+}
+#home{
+    display: flex;
+    padding-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+#srchButton{
+    border: none;
+    background-color:rgb(245, 245, 243) ;
+    font-weight: 500;
+    cursor: pointer;
+}
+#text{
+    
+    display: inline;
+    width: 50%;
+    padding-left: 65px;
+    
+    padding-right:40px;
+}
+#text h1{
+    font-size: 66px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+#text p{
+    font-size: large;
+    padding-top: 30px;
+}
+#image{
+    display: inline;
+    width: 50%;
+    padding: 30px 0 0 25px;
+}
+#image img{
+    width: 470px;
+}
+.txtButton{
+    padding: 12px 23px;
+    border: none;
+    color: white;
+    margin:45px 10px 0 0;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;   
+    cursor: pointer; 
+    font-weight: 500;
+}   
+#services{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding-top: 35px;
+}
+#services h1{
+    font-weight: 800;
+}
+#services h1,#services p{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+#sections{
+    box-sizing: border-box;
+    padding: 0 10px 0 50px;
+    margin-top: 50px;
+    display: inline flex;   
+}
+.section{
+    
+    margin: 10px;
+    box-sizing: border-box;
+    width: 30%;
+    border: 1px solid rgba(179, 175, 175, 0.5);
+    border-radius: 2px;
+    height: 350px;
+}
+.frtImage{
+    width: 60px;
+    padding: 55px 0 50px 165px;
+    
+}
+.section h3{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(231, 105, 105);
+}
+.section p{
+    text-align: center;
+    padding:20px 30px ;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;    
+    font-weight: 500;
+}
+#readbtn{
+    padding: 12px 23px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: none;
+    cursor:pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.readme{
+    padding: 30px 0 45px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.fruitHead{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding: 7px;
+}
+#fruits h1{
+    font-weight:800 ;
+}
+.bestOrange{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.orangeText{
+    display: inline;
+    width: 60%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding:30px 0 0 60px
+}
+.orangeText h3{
+    font-weight:550;
+    font-size: x-large;
+    padding-bottom: 25px;
+
+}
+.orangeImage{
+    display: inline;
+    width: 40%;
+}
+.orangeImage img{
+    width: 260px;
+    padding:60px 0 0 80px ;
+}
+.buyButton{
+    margin-top: 40px;
+    padding: 11px 33px;
+    border: none;
+    font-size: 15px;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 500;
+}
+#grapesImg{
+    width: 110px;
+    padding: 20px 0 0 150px;
+}
+#testimonial{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+#testimonial h2{
+    padding-top: 100px;
+    font-size: xx-large;
+    font-weight: 800;
+}
+#testimonial p{
+    padding: 15px 90px;
+
+}
+#testimonial img{
+    padding-top: 60px;
+}
+#testimonial h3{
+    font-size: xx-large;
+    font-weight: 400;
+}
+.input{
+    display: block;
+    margin:20px 0 0 70px;
+    font-size: 15px;
+    width: 730px;
+    border-bottom: 2px solid rgb(163, 160, 160);
+    border-top:white ;
+    border-right:white ;
+    border-left:white ;
+    padding: 3px 0 3px 2px;
+    outline:none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+}
+input:focus{
+    border-bottom: 2px solid rgb(163, 160, 160);
+}
+#contactUs{
+    display: flex;
+    padding-top: 180px;
+}
+#input{
+    display: inline;
+    width: 60%;
+    font-family: "Montserrat", sans-serif;
+}
+#lemonImage{
+    display: inline;
+    width: 40%;
+}
+#contactUs h2{
+    font-size: xx-large;
+    padding: 0 0 15px 70px;
+    font-weight: 800;
+}
+#msg{
+    margin-top: 60px;
+}
+#lemonImage img{
+    padding-left: 270px;
+    width: 40%;
+}
+#input button{
+    margin: 50px 0 0 70px;
+    padding: 11px 39px;
+    font-size: 13px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+#footer{
+    display: flex;
+    padding-top: 150px;
+}
+#fruitsList{
+    width: 25%;
+}
+#servicesList{
+    width: 25%;
+}
+#Lists{
+    width: 25%;
+}
+#followUsList{
+    width: 25%;
+}
+.footerLists h3{
+    padding-left: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    font-size: x-large;
+}
+.footerLists ul{
+    padding: 20px 0 0 60px;
+    font-family: "Montserrat", sans-serif;
+    list-style-type: none;
+}
+#footer li{
+    font-size: 17px;
+    font-weight: 520;
+    padding-top: 5px;
+}
+#followUsList h3{
+    padding-left: 0px;
+}
+#followUsList img{
+    width: 12%;
+    padding: 18px 4px 20px 0;
+}
+#subscribeInput{
+    width: 220px;
+    margin-top: 15px;
+    padding: 5px;
+}
+#followUsList button{
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 7px 32px;
+    margin-top: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+#copyright{
+    background-color: rgb(228, 228, 226);
+    margin: 50px 40px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    padding: 30px 0;
+
+}
